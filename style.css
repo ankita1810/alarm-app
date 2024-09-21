@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1D1D23;   
+}
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+.header>h2{
+    color: white;  
+    font-size:25px; 
+}
+.timer-input-section{
+    margin-top: 20px;
+    margin-left: 630px;
+    max-width: 690px;
+}
+input{
+    padding: 8px;
+    margin-right: 10px;
+    width: 60px;
+    text-align: center;
+}
+button{
+    padding:8px 16px;
+    background-color: #007bff;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.active-timers-section{
+    margin-bottom: 20px;
+}
+.timer-end-display{
+    font-size: 20px;
+    color:red;
+    margin: 20px;
+    font-weight: bold;
+}

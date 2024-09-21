@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2>Multiple Timers App</h2>
+    </div>
+
+    <div class="timer-input-section">
+      <input type="number" id="hours" placeholder="hh" />
+      <input type="number" id="minutes" placeholder="mm" />
+      <input type="number" id="seconds" placeholder="ss" />
+      <button id="start-timer-btn">Set</button>
+    </div>
+
+    <div class="active-timers-section" id="active-timers"></div>
+    <div class="timer-end-display" id="timer-end-display"></div>
+    <audio id="timer-alert">
+      <source src="creative-technology-showreel-241274.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
